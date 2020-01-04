@@ -9,9 +9,7 @@ categories: clean-code programming
 
 Alguma vez você já olhou para um trecho de código e se sentiu lidando com algo assim:
 
-![image-20200104111054656](../assets/images/image-20200104111054656.png)
-
-
+![Gambiarra](/assets/image-20200104111054656.png)
 
 Se você for uma pessoa desenvolvedora de software como eu, é bem provável que sim. Provavelmente o código começou organizado, assim como a fiação, mas não continuou assim por ocasião de prazos apertados, desconhecimento das pessoas envolvido sobre como evoluir o código de outra forma, ausência de Code Reviews por profissionais com maior nível de senioridade e/ou outros inúmeros fatores. Ocorre que as coisas não precisam continuar dessa forma. É possível começarmos a evoluir software de uma maneira mais limpa e que facilite manutenções.
 
