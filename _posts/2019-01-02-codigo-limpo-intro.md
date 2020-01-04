@@ -9,7 +9,7 @@ categories: clean-code programming
 
 Alguma vez você já olhou para um trecho de código e se sentiu lidando com algo assim:
 
-![image-20200104111054656](..\assets\images\image-20200104111054656.png)
+![image-20200104111054656](../assets/images/image-20200104111054656.png)
 
 
 
