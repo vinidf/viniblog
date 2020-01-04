@@ -11,13 +11,13 @@ Alguma vez você já olhou para um trecho de código e se sentiu lidando com alg
 
 ![Gambiarra]({{ site.url }}/viniblog/assets/images/image-20200104111054656.png)
 
-Se você for uma pessoa desenvolvedora de software como eu, é bem provável que sim. Provavelmente o código começou organizado, assim como a fiação, mas não continuou assim por ocasião de prazos apertados, desconhecimento das pessoas envolvido sobre como evoluir o código de outra forma, ausência de Code Reviews por profissionais com maior nível de senioridade e/ou outros inúmeros fatores. Ocorre que as coisas não precisam continuar dessa forma. É possível começarmos a evoluir software de uma maneira mais limpa e que facilite manutenções.
+Se você for uma pessoa desenvolvedora de software como eu, é bem provável que sim. Provavelmente o código começou organizado, assim como a fiação, mas não continuou assim por ocasião de prazos apertados, desconhecimento das pessoas envolvidas sobre como evoluir o código de outra forma, ausência de Code Reviews por profissionais com maior nível de senioridade e/ou outros inúmeros fatores. Ocorre que as coisas não precisam continuar dessa forma. É possível começarmos a evoluir software de uma maneira mais limpa e que facilite manutenções.
 
 Essa maneira de escrever código é amplamente explicada por Robert C. Martin em seu livro Código Limpo, lançado em 2008.
 
 ## O que é um código limpo?
 
-Para explicar o que é um código limpo, o autor cita profissionais ilustres da área de desenvolvimento de software. Seguem algumas delas:
+Para explicar o que é um código limpo, o autor cita profissionais ilustres da área de desenvolvimento de software. Seguem algumas citações para entender melhor o conceito:
 
 
 
@@ -39,7 +39,7 @@ Para explicar o que é um código limpo, o autor cita profissionais ilustres da 
 
 
 
-Resumindo, segundo os citados e também o que o livro fala, um código limpo é um código que faz apenas uma coisa, algo similar ao que o principio de responsabilidade única do S.O.L.I.D diz, é simples e direto e previsível. Todas essas coisas tornam o código mais compreensível e, por consequência, mais fácil de receber manutenções. 
+Resumindo, segundo os citados e também o que o livro fala, um código limpo é um código que faz apenas uma coisa, algo similar ao que o Princípio de Responsabilidade Única do S.O.L.I.D diz, é simples, direto e previsível. Todas essas coisas tornam o código mais compreensível e, por consequência, mais fácil de receber manutenções. 
 
 Interessante, certo? 
 
