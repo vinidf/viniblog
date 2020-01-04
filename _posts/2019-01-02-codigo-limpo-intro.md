@@ -11,7 +11,7 @@ Alguma vez você já olhou para um trecho de código e se sentiu lidando com alg
 
 ![Gambiarra]({{ site.url }}/viniblog/assets/images/image-20200104111054656.png)
 
-Se você for uma pessoa desenvolvedora de software como eu, é bem provável que sim. Provavelmente o código começou organizado, assim como a fiação, mas não continuou assim por ocasião de prazos apertados, desconhecimento das pessoas envolvidas sobre como evoluir o código de outra forma, ausência de Code Reviews por profissionais com maior nível de senioridade e/ou outros inúmeros fatores. Ocorre que as coisas não precisam continuar dessa forma. É possível começarmos a evoluir software de uma maneira mais limpa e que facilite manutenções.
+Se você for uma pessoa desenvolvedora de software como eu, é bem provável que sim. Provavelmente o código começou organizado, assim como a fiação, mas não continuou assim por ocasião de prazos apertados, desconhecimento das pessoas envolvidas sobre como evoluir o código de outra forma, ausência de *Code Reviews* por profissionais com maior nível de senioridade e/ou outros inúmeros fatores. Ocorre que as coisas não precisam continuar dessa forma. É possível começarmos a evoluir software de uma maneira mais limpa e que facilite manutenções.
 
 Essa maneira de escrever código é amplamente explicada por Robert C. Martin em seu livro Código Limpo, lançado em 2008.
 
@@ -45,7 +45,7 @@ Interessante, certo?
 
 ## Como começar a escrever código limpo?
 
-Esse post faz parte de uma série, no próximo post responderei a pergunta acima falando sobre como podemos escrever nomes significativos para nossas variáveis.
+Esse post faz parte de uma série, no próximo post responderei a pergunta acima falando sobre como podemos escrever nomes significativos para nossas variáveis e com isso aumentar o entendimento de terceiros sobre o código que escrevemos.
 
 Sugestões, críticas construtivas e comentários sobre esse post são muito bem vindos. Até o próximo post!
 
