@@ -47,7 +47,7 @@ Interessante, certo?
 
 Esse post faz parte de uma série, no próximo post responderei a pergunta acima falando sobre como podemos escrever nomes significativos para nossas variáveis e com isso aumentar o entendimento de terceiros sobre o código que escrevemos.
 
-Sugestões, críticas construtivas e comentários sobre esse post são muito bem vindos. Até o próximo post!
+Sugestões, críticas construtivas e comentários sobre este post são muito bem vindos. Até o próximo!
 
 
 
