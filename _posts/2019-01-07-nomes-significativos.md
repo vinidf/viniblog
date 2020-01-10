@@ -19,7 +19,7 @@ int d;
 
 {% endhighlight %}
 
-A adição de um comentário poderia explicar melhor o objetivo da variável, mas comentários podem ser traiçoeiros como veremos em um post futuro.  De toda forma, a pessoa que estiver depurando o código precisará voltar na declaração da variável toda vez que quiser reler o comentário e lembrar do significado da variável.
+A adição de um comentário poderia explicar melhor o objetivo da variável, mas comentários podem ser traiçoeiros como veremos em um post futuro.  De toda forma, a pessoa que estiver depurando o código precisará voltar na declaração da variável toda vez que quiser relembrar o seu significado.
 
 {% highlight csharp %}
 
@@ -73,7 +73,7 @@ public int X()
 
 E aí? Apenas batendo o olho você conseguiu identificar o que ele faz? Provavelmente não. 
 
-Abaixo um exemplo do livro com nomes mais descritivos. Veja se consegue identificar do que se trata:
+Segue abaixo o código reescrito com nomes mais descritivos. Veja se consegue identificar do que se trata:
 
 {% highlight csharp %}
 
@@ -104,8 +104,6 @@ Abaixo um exemplo do livro com nomes mais descritivos. Veja se consegue identifi
 Após uma leitura superficial do trecho acima é possível identificar que se trata de algo relacionado à boliche por conta do vocabulário utilizado.
 
 Bem melhor, certo?
-
-Através dos exemplos apresentados provavelmente foi possível visualizar como a escolha de nomes descritivos facilita o entendimento do que um determinado código faz.
 
 ## Faça distinções significativas
 
@@ -154,7 +152,7 @@ class DdosReg102
 
 {% endhighlight %}
 
-A pessoa que escreveu esse código provavelmente tinha a melhor das intenções ao nomear a classe e as variáveis acima, mas infelizmente encontrar e falar a respeito de algo que praticamente não pode ser pronunciado dificulta a compreensão para pessoas que não conhecem bem o código.
+A pessoa que escreveu esse código provavelmente tinha a melhor das intenções ao nomear a classe e as variáveis acima, mas infelizmente encontrar e falar a respeito de algo que praticamente não pode ser pronunciado dificulta a compreensão entre as pessoas envolvidas.
 
 Nomes pronunciáveis e passíveis de busca são uma melhor escolha para melhores discussões sobre um determinado código e também para localizá-lo em uma *codebase* de um grande projeto. Abaixo um bom exemplo de uso com variáveis que podem ser pronunciadas e pesquisadas com facilidade:
 
@@ -181,9 +179,7 @@ Sugestões, críticas construtivas e comentários sobre este post são muito bem
 
 ***
 
-Esse post faz parte de uma série, no próximo post responderei a pergunta acima falando sobre como podemos escrever nomes significativos para nossas variáveis e com isso aumentar o entendimento de terceiros sobre o código que escrevemos.
-
-
+Esse post faz parte de uma série, no próximo post falarei de alguns conselhos para funções mais limpas.
 
 
 
