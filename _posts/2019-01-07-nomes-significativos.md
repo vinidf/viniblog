@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Código Limpo - Como escrever código limpo - Nomes significativos"
+title:  "Como escrever Código Limpo - Nomes significativos"
 date:   2020-01-07 17:00:00 -0300
 categories: clean-code programming
 ---

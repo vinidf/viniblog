@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Código Limpo - Introdução"
+title:  "Como escrever Código Limpo - Introdução"
 date:   2020-01-02 21:23:00 -0300
 categories: clean-code programming
 ---
@@ -49,10 +49,12 @@ Esse post faz parte de uma série de posts e no próximo responderei a pergunta 
 
 Sugestões, críticas construtivas e comentários sobre este post são muito bem vindos. Até o próximo!
 
-
-
 #### Referências
 
 [MARTIN, Robert C. Código Limpo. Alta Books, 2019.](https://amzn.to/39ExBZl)
 
 [FROES, Guilherme. O que não te ensinaram sobre Programação Orientada a Objetos. 2019.](https://www.meetup.com/pt-BR/DevIsland/events/263970513)
+
+------
+
+### [Você pode fazer a continuação dessa série clicando aqui.]({% post_url 2019-01-07-nomes-significativos %})
