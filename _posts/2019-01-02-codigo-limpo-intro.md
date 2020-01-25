@@ -39,13 +39,13 @@ Para explicar o que é um código limpo, o autor cita profissionais ilustres da 
 
 
 
-Resumindo, segundo os citados e também o que o livro fala, um código limpo é um código que faz apenas uma coisa, algo similar ao que o Princípio de Responsabilidade Única do S.O.L.I.D diz, é simples, direto e previsível. Todas essas coisas tornam o código mais compreensível e, por consequência, mais fácil de receber manutenções. 
-
-Interessante, certo? 
+Resumindo, segundo os citados e também o que o livro fala, um código limpo é um código que faz apenas uma coisa (algo similar ao que o Princípio de Responsabilidade Única do [S.O.L.I.D](https://pt.wikipedia.org/wiki/SOLID) diz), é simples, direto e previsível. Todas essas coisas tornam o código mais compreensível e, por consequência, mais fácil de receber manutenções. 
 
 ## Como começar a escrever código limpo?
 
-Esse post faz parte de uma série, no próximo post responderei a pergunta acima falando sobre como podemos escrever nomes significativos para nossas variáveis e com isso aumentar o entendimento de terceiros sobre o código que escrevemos.
+Após essa introdução, você pode ter entendido a motivação por trás de escrever um código limpo. Porém, como fazer isso de maneira prática?
+
+Esse post faz parte de uma série de posts e no próximo responderei a pergunta acima falando sobre como podemos escrever nomes significativos para nossas variáveis e com isso aumentar o entendimento de terceiros sobre o código que escrevemos.
 
 Sugestões, críticas construtivas e comentários sobre este post são muito bem vindos. Até o próximo!
 
@@ -55,3 +55,4 @@ Sugestões, críticas construtivas e comentários sobre este post são muito bem
 
 [MARTIN, Robert C. Código Limpo. Alta Books, 2019.](https://amzn.to/39ExBZl)
 
+[FROES, Guilherme. O que não te ensinaram sobre Programação Orientada a Objetos. 2019.](https://www.meetup.com/pt-BR/DevIsland/events/263970513)
