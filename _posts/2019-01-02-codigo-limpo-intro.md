@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Como escrever Código Limpo - Introdução"
-date:   2020-01-02 21:23:00 -0300
+date:   2020-01-25 18:10:00 -0300
 categories: clean-code programming
 ---
 

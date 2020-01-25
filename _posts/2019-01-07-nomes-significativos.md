@@ -1,11 +1,11 @@
 ---
 layout: single
 title:  "Como escrever Código Limpo - Nomes significativos"
-date:   2020-01-07 17:00:00 -0300
+date:   2020-01-25 18:10:00 -0300
 categories: clean-code programming
 ---
 
-Na primeira parte dessa série de artigos sobre Código Limpo eu introduzi o conceito e os benefícios de sua utilização. Neste post, veremos alguns princípios encontrados no livro de Robert C. Martin relacionados ao processo de nominar variáveis, métodos, classes e outros itens de uma *codebase* e como esses princípios podem beneficiar o entendimento do código como um todo.
+Na primeira parte dessa série de artigos sobre Código Limpo, fiz uma introdução do conceito e os benefícios de sua utilização. Neste post, veremos alguns princípios encontrados no livro de Robert C. Martin relacionados ao processo de nominar variáveis, métodos, classes e outros itens de uma *codebase* e como esses princípios podem beneficiar o entendimento do código como um todo.
 
 Caso ainda não tenha lido o post introdutório, sugiro iniciar pela leitura dele [clicando aqui]({{ site.baseurl }}{% post_url 2019-01-02-codigo-limpo-intro %}).
 
