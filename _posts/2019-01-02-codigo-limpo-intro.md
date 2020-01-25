@@ -57,4 +57,4 @@ Sugestões, críticas construtivas e comentários sobre este post são muito bem
 
 ------
 
-### [Você pode fazer a continuação dessa série clicando aqui.]({{ site.baseurl }}{% post_url 2019-01-07-nomes-significativos %})
+### [Você pode ler a continuação dessa série clicando aqui.]({{ site.baseurl }}{% post_url 2019-01-07-nomes-significativos %})

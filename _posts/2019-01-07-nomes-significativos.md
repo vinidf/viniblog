@@ -5,9 +5,9 @@ date:   2020-01-07 17:00:00 -0300
 categories: clean-code programming
 ---
 
-## Introdução
+Na primeira parte dessa série de artigos sobre Código Limpo eu introduzi o conceito e os benefícios de sua utilização. Neste post, veremos alguns princípios encontrados no livro de Robert C. Martin relacionados ao processo de nominar variáveis, métodos, classes e outros itens de uma *codebase* e como esses princípios podem beneficiar o entendimento do código como um todo.
 
-Nomear bem variáveis, classes e métodos de uma *codebase* pode parecer algo pequeno, mas veremos ao longo deste post os benefícios que a escolha de bons nomes traz para o entendimento do código como um todo.
+Caso ainda não tenha lido o post introdutório, sugiro iniciar pela leitura dele [clicando aqui]({{ site.baseurl }}{% post_url 2019-01-02-codigo-limpo-intro %}).
 
 ## Escolha nomes descritivos e que não despertem dúvidas
 
@@ -171,7 +171,7 @@ class Cliente
 
 ## Conclusão
 
-Vimos que escolher bons nomes para variáveis, métodos, classes e outros itens de uma *codebase* é uma boa prática que facilita a compreensão e manutenção do código porque boa parte do tempo gasto para entender um problema no código é justamente o lendo.
+Vimos que escolher bons nomes para variáveis, métodos, classes e outros itens de uma *codebase* é uma prática que facilita a compreensão e manutenção do código porque boa parte do tempo gasto para entender um problema neste é justamente o lendo.
 
 E aí, o que achou do assunto?
 
@@ -179,7 +179,7 @@ Sugestões, críticas construtivas e comentários sobre este post são muito bem
 
 ***
 
-Esse post faz parte de uma série, no próximo post falarei de alguns conselhos para funções mais limpas.
+Esse post faz parte de uma série, no próximo apresentarei alguns princípios de como escrever funções mais limpas.
 
 
 
