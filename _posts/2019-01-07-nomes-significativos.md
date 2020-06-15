@@ -187,3 +187,4 @@ Esse post faz parte de uma série, no próximo apresentarei alguns princípios d
 
 [MARTIN, Robert C. Código Limpo. Alta Books, 2019.](https://amzn.to/39ExBZl)
 
+[Clean Code concepts adapted for .NET/.NET Core](https://github.com/thangchung/clean-code-dotnet#functions)
