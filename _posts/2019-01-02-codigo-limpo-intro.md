@@ -55,6 +55,10 @@ Sugestões, críticas construtivas e comentários sobre este post são muito bem
 
 [FROES, Guilherme. O que não te ensinaram sobre Programação Orientada a Objetos. 2019.](https://www.meetup.com/pt-BR/DevIsland/events/263970513)
 
+[Clean Code concepts adapted for .NET/.NET Core](https://github.com/thangchung/clean-code-dotnet#functions)
+
+[Summary of 'Clean code' by Robert C. Martin](https://github.com/thangchung/clean-code-dotnet#functions)
+
 ------
 
 ### [Você pode ler a continuação dessa série clicando aqui.]({{ site.baseurl }}{% post_url 2019-01-07-nomes-significativos %})
