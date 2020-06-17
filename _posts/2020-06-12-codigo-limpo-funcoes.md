@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Como escrever Código Limpo - Funções"
-date:   2020-06-13 16:35:00 -0300
+date:   2020-06-17 19:26:00 -0300
 categories: clean-code programming functions
 ---
 
@@ -16,8 +16,6 @@ Neste terceiro post, apresentarei um pouco o que o livro fala sobre funções.
 No exemplo abaixo, vemos uma função que busca registros na base de dados, verifica se esses registros estão ativos e por fim envia e-mails para os clientes representados por esses registros.
 
 Através desse exemplo simples, é possível perceber como escrever funções que fazem mais de uma coisa pode dificultar a manutenção do código visto que o entendimento do código se torna mais difícil e a escrita de testes unitários mais complexa.
-
-Exemplo ruim:
 
 {% highlight csharp %}
 
@@ -36,13 +34,7 @@ public void EnviarEmailParaListaDeClientes(string[] clientes)
 
 {% endhighlight %}
 
-
-
 Uma melhor opção é quebrar cada passo em um método, facilitando a escrita de testes unitários para cada um desses métodos e também o entendimento do que os métodos em questão fazem.
-
-
-
-Exemplo bom:
 
 {% highlight csharp %}
 
@@ -64,10 +56,6 @@ public List <Client> ObterClientesAtivos(string[] clientes)
 
 Como visto no post anterior sobre nomes significativos, a escolha de bons nomes é muito importante para o entendimento no código. No exemplo abaixo, temos uma classe chamada E-mail com um método chamado Lidar. O que seria lidar nesse contexto? Sem a visualização do código do método, é difícil saber se lidar está relacionado com um processo de configuração ou se faz o envio do e-mail.
 
-
-
-Exemplo ruim:
-
 {% highlight csharp %}
 
 public class Email
@@ -85,11 +73,7 @@ mensagem.Lidar();
 
 {% endhighlight %}
 
-
-
 Abaixo um exemplo melhor, onde a classe E-mail tem um método chamado Enviar. É muito mais intuitivo e é possível entender o que o método faz sem precisar ver seu conteúdo.
-
-Exemplo bom:
 
 {% highlight csharp %}
 
@@ -112,10 +96,6 @@ mensagem.Enviar();
 
 Um método com muitos parâmetros dificulta seu entendimento visto que muitas vezes não dizem muito sobre seu propósito. 
 
-
-
-Exemplo ruim: 
-
 {% highlight csharp %}
 
 public void CriarMenu(string titulo, string corpo, string textoBotao, bool cancelavel)
@@ -127,10 +107,6 @@ public void CriarMenu(string titulo, string corpo, string textoBotao, bool cance
 {% endhighlight %}
 
 Uma melhor ideia é, se possível, colocar os parâmetros em uma classe e utilizar os parâmetros dessa forma. Assim é possível entender o significado dos parâmetros.
-
-
-
-Exemplo bom:
 
 {% highlight csharp %}
 
@@ -156,9 +132,7 @@ public void CriarMenu(ConfiguracaoMenu config)
  // ...
 }
 
-{% endhighlight %}
-
- 
+{% endhighlight %} 
 
 ## Conclusão
 
