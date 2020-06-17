@@ -50,7 +50,7 @@ public void EnviarEmailParaListaDeClientes(string[] clientes)
 {
  var clientesAtivos = ObterClientesAtivos(clientes);
 
- // Alguma lógica
+ Email(clientesAtivos);
 }
 
 public List <Client> ObterClientesAtivos(string[] clientes)
@@ -74,7 +74,7 @@ public class Email
 {
  public void Lidar()
  {
-  SendMail(this._to, this._subject, this._body);
+  SendMail(this._destinatario, this._assunto, this._corpo);
  }
 }
 
@@ -97,7 +97,7 @@ public class Email
 {
  public void Enviar()
  {
-  SendMail(this._to, this._subject, this._body);
+  SendMail(this._destinatario, this._assunto, this._corpo);
  }
 }
 
