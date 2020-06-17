@@ -21,11 +21,14 @@ Exemplo ruim:
 
 {% highlight csharp %}
 
-public void EnviarEmailParaListaDeClientes(string[] clientes) {
- foreach(var cliente in clientes) {
+public void EnviarEmailParaListaDeClientes(string[] clientes)
+{
+ foreach(var cliente in clientes) 
+{
   var clientRecord = bd.Find(cliente);
 
-  if (clientRecord.ehAtivo()) {
+  if (clientRecord.ehAtivo()) 
+  {
    Email(cliente);
   }
  }
@@ -43,13 +46,15 @@ Exemplo bom:
 
 {% highlight csharp %}
 
-public void EnviarEmailParaListaDeClientes(string[] clientes) {
+public void EnviarEmailParaListaDeClientes(string[] clientes)
+{
  var clientesAtivos = ObterClientesAtivos(clientes);
 
  // Alguma lógica
 }
 
-public List <Client> ObterClientesAtivos(string[] clientes) {
+public List <Client> ObterClientesAtivos(string[] clientes)
+{
  return bd.Find(clientes).Where(s => s.Status == "Ativo");
 }
 
@@ -65,8 +70,10 @@ Exemplo ruim:
 
 {% highlight csharp %}
 
-public class Email {
- public void Lidar() {
+public class Email
+{
+ public void Lidar()
+ {
   SendMail(this._to, this._subject, this._body);
  }
 }
@@ -86,8 +93,10 @@ Exemplo bom:
 
 {% highlight csharp %}
 
-public class Email {
- public void Enviar() {
+public class Email
+{
+ public void Enviar()
+ {
   SendMail(this._to, this._subject, this._body);
  }
 }
@@ -109,7 +118,9 @@ Exemplo ruim:
 
 {% highlight csharp %}
 
-public void CriarMenu(string titulo, string corpo, string textoBotao, bool cancelavel) {
+public void CriarMenu(string titulo, string corpo, string textoBotao, bool cancelavel)
+{
+
  // ...
 }
 
@@ -123,38 +134,25 @@ Exemplo bom:
 
 {% highlight csharp %}
 
-public class ConfiguracaoMenu {
-
- public string Titulo {
-  get;
-  set;
- }
-
- public string Corpo {
-  get;
-  set;
- }
-
- public string TextoBotao {
-  get;
-  set;
- }
-
- public bool Cancelavel {
-  get;
-  set;
- }
-
+public class ConfiguracaoMenu 
+{
+ public string Titulo {  get;  set; }
+ public string Corpo {  get;  set; }
+ public string TextoBotao {  get;  set; }
+ public bool Cancelavel {  get;  set; }
 }
 
-var configuracao = new ConfiguracaoMenu {
+var configuracao = new ConfiguracaoMenu()  
+{
   Titulo = "Foo",
   Corpo = "Bar",
   TextoBotao = "Baz",
   Cancelavel = true
 };
 
-public void CriarMenu(ConfiguracaoMenu config) {
+public void CriarMenu(ConfiguracaoMenu config) 
+{
+
  // ...
 }
 
