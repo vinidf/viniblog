@@ -9,7 +9,7 @@ Na primeira parte dessa série de artigos sobre Código Limpo, fiz uma introduç
 
 No segundo post falei sobre princípios encontrados no livro relacionados ao processo de nominar variáveis, métodos, classes e outros itens de uma *codebase* e como esses princípios podem beneficiar o entendimento do código como um todo. Você pode ler esse post [clicando aqui]({{ site.baseurl }}{% post_url 2019-01-07-nomes-significativos %}).
 
-Neste terceiro post, apresentarei um pouco o que livro fala sobre funções.
+Neste terceiro post, apresentarei um pouco o que o livro fala sobre funções.
 
 ## Devem fazer apenas uma coisa
 
