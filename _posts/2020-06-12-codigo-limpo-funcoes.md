@@ -54,7 +54,7 @@ public List <Client> ObterClientesAtivos(string[] clientes)
 
 ## Devem ter nomes descritivos
 
-Como visto no post anterior sobre nomes significativos, a escolha de bons nomes é muito importante para o entendimento no código. No exemplo abaixo, temos uma classe chamada E-mail com um método chamado Lidar. O que seria lidar nesse contexto? Sem a visualização do código do método, é difícil saber se lidar está relacionado com um processo de configuração ou se faz o envio do e-mail.
+Como visto no post anterior sobre nomes significativos, a escolha de bons nomes é muito importante para o entendimento do código. No exemplo abaixo, temos uma classe chamada E-mail com um método chamado Lidar. O que seria lidar nesse contexto? Sem a visualização do código do método, é difícil saber se lidar está relacionado com um processo de configuração ou se faz o envio do e-mail.
 
 {% highlight csharp %}
 
