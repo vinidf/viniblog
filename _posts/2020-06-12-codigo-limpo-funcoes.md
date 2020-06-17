@@ -152,4 +152,4 @@ Esse post faz parte de uma série, no próximo apresentarei alguns princípios p
 
 [Clean Code concepts adapted for .NET/.NET Core](https://github.com/thangchung/clean-code-dotnet#functions)
 
-[Summary of 'Clean code' by Robert C. Martin](https://github.com/thangchung/clean-code-dotnet#functions)
+[Summary of 'Clean code' by Robert C. Martin](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
