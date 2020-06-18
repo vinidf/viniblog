@@ -45,7 +45,7 @@ public void EnviarEmailParaListaDeClientes(string[] clientes)
 
 public List<Client> ObterClientesAtivos(string[] clientes)
 {
- return bd.Find(clientes).Where(s => s.Status == "Ativo");
+ return bd.Find(clientes).Where(s => s.Status == "Ativo"); 
 }
 
 {% endhighlight %}
