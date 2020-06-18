@@ -7,7 +7,7 @@ categories: clean-code programming functions
 
 Na primeira parte dessa série de artigos sobre Código Limpo, fiz uma introdução do conceito e os benefícios de sua utilização. Você pode ler esse post [clicando aqui]({{ site.baseurl }}{% post_url 2019-01-02-codigo-limpo-intro %}). 
 
-No segundo post falei sobre princípios encontrados no livro relacionados ao processo de nominar variáveis, métodos, classes e outros itens de uma *codebase* e como esses princípios podem beneficiar o entendimento do código como um todo. Você pode ler esse post [clicando aqui]({{ site.baseurl }}{% post_url 2019-01-07-nomes-significativos %}).
+No segundo post falei sobre princípios encontrados no livro relacionados ao processo de nominar variáveis, métodos, classes e outros itens de uma base de código e como esses princípios podem beneficiar o entendimento do código como um todo. Você pode ler esse post [clicando aqui]({{ site.baseurl }}{% post_url 2019-01-07-nomes-significativos %}).
 
 Neste terceiro post, apresentarei um pouco o que o livro fala sobre funções.
 
@@ -15,7 +15,7 @@ Neste terceiro post, apresentarei um pouco o que o livro fala sobre funções.
 
 No exemplo abaixo, vemos uma função que busca registros na base de dados, verifica se esses registros estão ativos e por fim envia e-mails para os clientes representados por esses registros.
 
-Através desse exemplo simples, é possível perceber como escrever funções que fazem mais de uma coisa pode dificultar a manutenção do código visto que o entendimento do código se torna mais difícil e a escrita de testes unitários mais complexa.
+Através desse exemplo simples, é possível perceber como escrever funções que fazem mais de uma coisa pode dificultar suas manutenções visto que o entendimento do código se torna mais difícil. Além disso, a escrita de testes unitários se torna mais complexa pelo fato do método ter mais dependências que o necessário para o seu objetivo final. 
 
 {% highlight csharp %}
 
@@ -34,7 +34,8 @@ public void EnviarEmailParaListaDeClientes(string[] clientes)
 
 {% endhighlight %}
 
-Uma melhor opção é quebrar cada passo em um método, facilitando a escrita de testes unitários para cada um desses métodos e também o entendimento do que os métodos em questão fazem.
+
+No código acima, a função EnviarEmailParaListaDeClientes possui como responsabilidade enviar e-mails para uma lista de clientes. Fazer uma consulta ao banco de dados para buscar uma lista de clientes ativos é uma responsabilidade adicional e por isso deve ser delegada para uma outra função. Abaixo um melhor alternativa para o exemplo anterior:
 
 {% highlight csharp %}
 
@@ -45,7 +46,7 @@ public void EnviarEmailParaListaDeClientes(string[] clientes)
  Email(clientesAtivos);
 }
 
-public List <Client> ObterClientesAtivos(string[] clientes)
+public List<Client> ObterClientesAtivos(string[] clientes)
 {
  return bd.Find(clientes).Where(s => s.Status == "Ativo");
 }
