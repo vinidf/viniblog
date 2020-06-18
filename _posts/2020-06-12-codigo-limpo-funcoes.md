@@ -15,9 +15,7 @@ Neste terceiro post, apresentarei um pouco o que o livro fala sobre funções.
 
 No exemplo abaixo, vemos uma função que busca registros na base de dados, verifica se esses registros estão ativos e por fim envia e-mails para os clientes representados por esses registros.
 
-Através desse exemplo simples, é possível fazer uma extrapolação e perceber como escrever funções que fazem mais de uma coisa pode dificultar suas manutenções visto que o entendimento do código se torna mais difícil. Além disso, a escrita de testes unitários se torna mais complexa pelo fato do método ter mais dependências que o necessário para o seu objetivo final. 
-
-No nosso exemplo, o método EnviarEmailParaListaDeClientes possui como responsabilidade enviar e-mails para uma lista de clientes. Fazer uma consulta ao banco de dados para buscar uma lista de clientes ativos é uma responsabilidade adicional e por isso deve ser delegada para um outro método.
+Através desse exemplo simples, é possível perceber como escrever funções que fazem mais de uma coisa pode dificultar suas manutenções visto que o entendimento do código se torna mais difícil. Além disso, a escrita de testes unitários se torna mais complexa pelo fato do método ter mais dependências que o necessário para o seu objetivo final. 
 
 {% highlight csharp %}
 
@@ -36,7 +34,8 @@ public void EnviarEmailParaListaDeClientes(string[] clientes)
 
 {% endhighlight %}
 
-Uma melhor opção é quebrar cada responsabilidade em um método, facilitando a escrita de testes unitários para cada um desses métodos e também o entendimento do que os métodos em questão fazem.
+
+No código acima, a função EnviarEmailParaListaDeClientes possui como responsabilidade enviar e-mails para uma lista de clientes. Fazer uma consulta ao banco de dados para buscar uma lista de clientes ativos é uma responsabilidade adicional e por isso deve ser delegada para uma outra função. Abaixo um melhor alternativa para o exemplo anterior:
 
 {% highlight csharp %}
 
