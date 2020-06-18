@@ -33,7 +33,7 @@ public void EnviarEmailParaListaDeClientes(string[] clientes)
 {% endhighlight %}
 
 
-Através desse exemplo simples, é possível perceber como escrever funções que fazem mais de uma coisa pode dificultar suas manutenções visto que o entendimento do código se torna mais difícil. Além disso, a escrita de testes unitários se torna mais complexa pelo fato do método ter mais dependências que o necessário para o seu objetivo final. Abaixo um melhor alternativa para o exemplo anterior:
+Através desse exemplo simples, é possível perceber como escrever funções que fazem mais de uma coisa pode dificultar suas manutenções visto que o entendimento do código se torna mais difícil. Além disso, a escrita de testes unitários se torna mais complexa pelo fato do método ter mais dependências que o necessário para o seu objetivo final. Abaixo uma melhor alternativa para o exemplo anterior:
 
 {% highlight csharp %}
 
