@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "pt-BR"
-title                    : "Vinícius Fernandes | Desenvolvimento de Software"
+title                    : "Vinícius Oliveira | Desenvolvimento de Software"
 title_separator          : "-"
-name                     : "Vinícius Fernandes"
+name                     : "Vinícius Oliveira"
 description              : "Cearense vivendo em Minas faz muito tempo. Pessoa que desenvolve sistemas."
 url                      : https://vinidf.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : /viniblog # the subpath of your site, e.g. "/blog"
